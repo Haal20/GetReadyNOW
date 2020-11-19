@@ -9,8 +9,7 @@ namespace getreadynow.test
         [Fact]
         public void Test1()
         {
-            var value = "2";
-            Assert.Equal("2", value);
+            Console.WriteLine("Hej Världen!");
         }
     }
 }
