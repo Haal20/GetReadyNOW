@@ -6,7 +6,9 @@ namespace src
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game myGame = new Game();
+            myGame.StartGame();
+            Console.WriteLine("Spelet tog slut, resultatet var " + myGame.Results);
         }
     }
 }
